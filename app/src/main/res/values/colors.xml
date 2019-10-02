@@ -16,7 +16,9 @@
 
 
 
-    <color name="choose_card_industry">#FFEFA1</color>
-    <color name="choose_card_farmer">#ffca61</color>
+    <color name="choose_card_industry">#fff5c2</color>
+    <color name="selected_card_industry">#f0db73</color>
+    <color name="choose_card_farmer">#ffe0a3</color>
+    <color name="selected_card_farmer">#ebbb5e</color>
 
 </resources>

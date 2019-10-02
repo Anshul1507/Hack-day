@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Industry.IndustryDetailActivity"></activity>
+        <activity android:name=".Farmer.FarmerDetailActivity" />
+        <activity android:name=".Industry.IndustryMainActivity" />
+        <activity android:name=".Farmer.FamerMainActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
