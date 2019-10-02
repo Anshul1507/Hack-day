@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="main_green">#38d39f</color>
+    <color name="light_green">#66ff83</color>
+    <color name="white">#ffffff</color>
+
+    <color name="circle_elliptical_green">#D1F4D6</color>
+    <color name="colorDarkGreen">#54ad62</color>
+    <color name="colorLightGreen">#72df83</color>
+    <color name="progress_bar_green">#50b897</color>
+
+    <color name="material_green_50">#E8F5E9</color>
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_700">#388E3C</color>
+    <color name="material_green_a200">#65E1BA</color>
+
+</resources>
