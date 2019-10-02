@@ -1,6 +1,7 @@
 package com.hack.hack_1.LoginActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
 import android.view.Window;
@@ -12,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.hack.hack_1.MainActivity;
 import com.hack.hack_1.R;
 
 public class SplashActivity extends Activity {
@@ -36,11 +38,10 @@ public class SplashActivity extends Activity {
                 @Override
                 public void run() {
 
-                    Toast.makeText(SplashActivity.this, "yes", Toast.LENGTH_SHORT).show();
-//                    Intent i = new Intent(getApplicationContext(), SplashActivity.class);
-//                    startActivity(i);
-//                    finish();
-//                    finishActivity(0);
+                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(i);
+                    finish();
+                    finishActivity(0);
                 }
             }, 2600);
         }
